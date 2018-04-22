@@ -1,4 +1,4 @@
-# Node.js Move database tasks
+# Node.js Move database
 
 ## Requirements
 1. `Node v9.0`
@@ -42,3 +42,4 @@ Things that could be changed in this implementation to make this application mor
 2. Using `TypeScript`. It will provide extend typeFlow control which make code more easy to understand. Also it allows using interfaces which could be useful in extending repository pattern usage. 
 3. Adding `ESLint`
 4. Adding docker configuration
+5. Extended error handling and logging
