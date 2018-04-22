@@ -43,3 +43,23 @@ Things that could be changed in this implementation to make this application mor
 3. Adding `ESLint`
 4. Adding docker configuration
 5. Extended error handling and logging
+
+## Example of usage
+App is deployed to https://polar-springs-55380.herokuapp.com/movies
+Sample queries are provided in postman collection in `Movies database.postman_collection.json` file
+
+Examples:
+1. Get all movies `GET` https://polar-springs-55380.herokuapp.com/movies
+2. Get all movies shot in 2017 `GET` https://polar-springs-55380.herokuapp.com/movies?year=2017
+3. Get all movies shot in 2017 with title starting with `Baby` `GET` https://polar-springs-55380.herokuapp.com/movies?year=2017&title=baby
+4. Get all comments `GET` https://polar-springs-55380.herokuapp.com/comments
+5. Get all comments attached to movie Baby Driver `GET` https://polar-springs-55380.herokuapp.com/comments?
+movieId=5add00cfac77650014ecfea8
+6. Adding a movie `POST` https://polar-springs-55380.herokuapp.com/movies
+payload:
+>{ "title" : "Avatar" }
+7. Adding a comment `POST` https://polar-springs-55380.herokuapp.com/comments
+>{
+	"movieId" : "5add017fac77650014ecfeab",
+	"body" : "Great 3d!"
+}

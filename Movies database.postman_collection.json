@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "c05991c1-2948-4275-bfb4-9ae03e176b96",
+		"name": "Movies database",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all movies",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://polar-springs-55380.herokuapp.com/movies",
+					"protocol": "https",
+					"host": [
+						"polar-springs-55380",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"movies"
+					]
+				},
+				"description": "/movies GET all"
+			},
+			"response": []
+		},
+		{
+			"name": "Get all movies from year 2017",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://polar-springs-55380.herokuapp.com/movies?year=2017",
+					"protocol": "https",
+					"host": [
+						"polar-springs-55380",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"movies"
+					],
+					"query": [
+						{
+							"key": "year",
+							"value": "2017"
+						}
+					]
+				},
+				"description": "/movies from 2017"
+			},
+			"response": []
+		},
+		{
+			"name": "add movie",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\" : \"Baby driver\"\n}"
+				},
+				"url": {
+					"raw": "https://polar-springs-55380.herokuapp.com/movies",
+					"protocol": "https",
+					"host": [
+						"polar-springs-55380",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"movies"
+					]
+				},
+				"description": "add movie"
+			},
+			"response": []
+		},
+		{
+			"name": "get all comments",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://polar-springs-55380.herokuapp.com/comments",
+					"protocol": "https",
+					"host": [
+						"polar-springs-55380",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"comments"
+					]
+				},
+				"description": "get all comments"
+			},
+			"response": []
+		},
+		{
+			"name": "Add comment to movie",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"movieId\" : \"5add00cfac77650014ecfea8\",\n\t\"body\" : \"Great movie!\"\n}"
+				},
+				"url": {
+					"raw": "https://polar-springs-55380.herokuapp.com/comments",
+					"protocol": "https",
+					"host": [
+						"polar-springs-55380",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get comments to movie Baby Driver",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://polar-springs-55380.herokuapp.com/comments?movieId=5add00cfac77650014ecfea8",
+					"protocol": "https",
+					"host": [
+						"polar-springs-55380",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"comments"
+					],
+					"query": [
+						{
+							"key": "movieId",
+							"value": "5add00cfac77650014ecfea8"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
