@@ -1,0 +1,26 @@
+[
+    {
+        "_id": "5adcbd00bc94b307d86b2b98",
+        "movieId": "5adcbb9a47fd631e505b27f7",
+        "body": "sałby 2/10",
+        "createdAt": "2018-04-22T16:49:04.816Z",
+        "updatedAt": "2018-04-22T16:49:04.816Z",
+        "__v": 0
+    },
+    {
+        "_id": "5adcbd00bc94b307d86b2b98",
+        "movieId": "5adcbb9a47fd631e505b27f7",
+        "body": "Mi sie podbal, swietna akcja, polecam!",
+        "createdAt": "2018-04-22T16:49:04.816Z",
+        "updatedAt": "2018-04-22T16:49:04.816Z",
+        "__v": 0
+    },
+    {
+        "_id": "5adcbd00bc94b307d86b2b98",
+        "movieId": "5adcbbb247fd631e505b27f8",
+        "body": "Nudy jak w polskim kinie...",
+        "createdAt": "2018-04-22T16:49:04.816Z",
+        "updatedAt": "2018-04-22T16:49:04.816Z",
+        "__v": 0
+    }    
+]

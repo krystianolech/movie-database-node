@@ -1,0 +1,87 @@
+[
+    {
+        "actors": [
+            "Ansel Elgort",
+            "Jon Bernthal",
+            "Jon Hamm",
+            "Eiza González"
+        ],
+        "_id": "5adcbb9a47fd631e505b27f7",
+        "title": "Baby Driver",
+        "year": 2017,
+        "runtime": "112 min",
+        "imdbRatirng": 7.7,
+        "poster": "https://ia.media-imdb.com/images/M/MV5BMjM3MjQ1MzkxNl5BMl5BanBnXkFtZTgwODk1ODgyMjI@._V1_SX300.jpg",
+        "createdAt": "2018-04-22T16:43:06.503Z",
+        "updatedAt": "2018-04-22T16:43:06.503Z",
+        "__v": 0
+    },
+    {
+        "actors": [
+            "Sayantika Banerjee",
+            "Biplab Chatterjee",
+            "Prasenjit Chatterjee",
+            "Supriyo Dutta"
+        ],
+        "_id": "5adcbbb247fd631e505b27f8",
+        "title": "Hangover",
+        "year": 2010,
+        "runtime": "135 min",
+        "imdbRatirng": 5.7,
+        "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZWYwYjE2NWQtZmMwMi00YWVhLTgwOGMtODQ4NDQ2NTA4Y2ZkXkEyXkFqcGdeQXVyNjA3OTI5MjA@._V1_SX300.jpg",
+        "createdAt": "2018-04-22T16:43:30.673Z",
+        "updatedAt": "2018-04-22T16:43:30.673Z",
+        "__v": 0
+    },
+    {
+        "actors": [
+            "Saoirse Ronan",
+            "Laurie Metcalf",
+            "Tracy Letts",
+            "Lucas Hedges"
+        ],
+        "_id": "5adcbbba47fd631e505b27f9",
+        "title": "Lady Bird",
+        "year": 2017,
+        "runtime": "94 min",
+        "imdbRatirng": 7.5,
+        "poster": "https://ia.media-imdb.com/images/M/MV5BODhkZGE0NDQtZDc0Zi00YmQ4LWJiNmUtYTY1OGM1ODRmNGVkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        "createdAt": "2018-04-22T16:43:38.150Z",
+        "updatedAt": "2018-04-22T16:43:38.150Z",
+        "__v": 0
+    },
+    {
+        "actors": [
+            "Dave Franco",
+            " James Franco",
+            " Seth Rogen",
+            " Ari Graynor"
+        ],
+        "_id": "5adcbbc447fd631e505b27fa",
+        "title": "The Disaster Artist",
+        "year": 2017,
+        "runtime": "104 min",
+        "imdbRatirng": 7.6,
+        "poster": "https://ia.media-imdb.com/images/M/MV5BOGNkMzliMGMtMDI5Ni00OTZkLTgyMTYtNzk5ZTY1NjVhYjVmXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SX300.jpg",
+        "createdAt": "2018-04-22T16:43:48.204Z",
+        "updatedAt": "2018-04-22T16:43:48.204Z",
+        "__v": 0
+    },
+    {
+        "actors": [
+            "Akshay Kumar",
+            "Danny Denzongpa",
+            "Rana Daggubati",
+            "Tapsee Pannu"
+        ],
+        "_id": "5adcc72c72139311a01e4d8b",
+        "title": "Baby",
+        "year": 2015,
+        "runtime": "159 min",
+        "imdbRatirng": 8.1,
+        "poster": "https://ia.media-imdb.com/images/M/MV5BYTdhNjBjZDctYTlkYy00ZGIxLWFjYTktODk5ZjNlMzI4NjI3XkEyXkFqcGdeQXVyMjY1MjkzMjE@._V1_SX300.jpg",
+        "createdAt": "2018-04-22T17:32:28.635Z",
+        "updatedAt": "2018-04-22T17:32:28.635Z",
+        "__v": 0
+    }
+]
