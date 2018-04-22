@@ -22,7 +22,7 @@ class MovieService {
             runtime: movieDetails.Runtime,
             director: movieDetails.Director,
             actors: movieDetails.Actors.split(',').map((name) => name.trim()),
-            imdbRatirng: parseFloat(movieDetails.imdbRating),
+            imdbRatirng: movieDetails.imdbRating !== "N/A" ? parseFloat(movieDetails.imdbRating) : null,
             poster: movieDetails.Poster
         }
     }

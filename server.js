@@ -13,16 +13,22 @@ const serverConfig = {
 const createServer = (settings, routes) => {
     const server = Hapi.server({
         ...settings,
-         app: {}
-     });
-     server.route(routes)
-     return server
+        app: {}
+    });
+    server.route(routes)
+    return server
 }
 
 const server = createServer(serverConfig, routes)
 
 exports.server = server;
 exports.startServer = async () => {
+    await server.register({
+        plugin: require('hapi-raven'),
+        options: {
+            dsn: process.env.SENTRY_DSN
+        }
+    })
     await server.start()
     return server
 }
