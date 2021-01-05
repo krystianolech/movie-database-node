@@ -11,7 +11,7 @@
   "author": "Krystian Olech",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "boom": "^7.2.0",
     "dotenv": "^5.0.1",
     "hapi": "^17.3.1",
